@@ -1,19 +1,9 @@
 # StudentDatabaseApplication
 
+**Created an application to handle student enrollments and to manage student enrollments and balance for any university.**
 
-Created an application to handle new customer bank account requests.
+1. Ask the user how many students need to enroll 
 
-This application reads a csv file having 
-  Names
-  Social Society Numbers(SSN)
-  Account Type - Savings or Checking
-  Initial Deposit
-  
-Using All these information , generated an 11-digit Account Number:-
-  - 1 or 2 - Savings or Checking
-  - last two digits of SSN
-  - Unique 5-digit number 
-  - Random 3-digit Number
+2. After recieving the name and grade level of Student , the Student should have a unique 5-digti ID with the first number of their grade level.
 
-Savings Account  are given a safety deposit box having 3-digit number and accessed with 4-digit code.
-Checking Account assigned a 12-digit debit card number and 4-digit pin.
+3. Then ask them courses they need to enroll and each course having fees 600$ and then pay the amount and check the balance.
